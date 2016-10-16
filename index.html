@@ -16,41 +16,45 @@
 <body>
     <h6>Mk-pokazowa</h6>
     <header>
-        <img src="" alt="logo">
+        <div class="image-container">
+            <img src="img/logo-example2.png" alt="logo">
+        </div>    
         <nav>
-            <h6>Main Navigation</h6>
+            
             <ul>
-                <li><a href="#">Link#1</a></li>
-                <li><a href="#">Link#2</a></li>
-                <li><a href="#">Link#3</a></li>
+                <li><a href="#background-section">Link#1</a></li>
+                <li><a href="#small-art">Link#2</a></li>
+                <li><a href="#information">Link#3</a></li>
             </ul>
         </nav>
     </header>
-    <section>
-        <h1>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus justo."</h1>
-        <p>- Ipsumus Dolors</p>
+    <section id="background-section">
+        <div class="text-container">
+            <h1>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus justo."</h1>
+            <h2>- Ipsumus Dolors</h2>
+        </div>
     </section>
-    <section>
+    <section class="small-art-container" id="small-art">
         <h6>Specific skills</h6>
-        <section>
-            <img src="#" alt="ikonka">
+        <section class="small-art">
+            <img src="/img/facebook.png" alt="ikonka">
+            <h2>Title1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus justo.</p>
+        </section >
+        <section class="small-art">
+            <img src="/img/instagram.png" alt="ikonka">
             <h2>Title1</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus justo.</p>
         </section>
-        <section>
-            <img src="#" alt="ikonka">
-            <h2>Title1</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus justo.</p>
-        </section>
-        <section>
-            <img src="#" alt="ikonka">
+        <section class="small-art">
+            <img src="/img/twitter.png" alt="ikonka">
             <h2>Title1</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus justo.</p>
         </section>
     </section>
-    <section>
+    <section class="information" id="information">
         <h6>Information</h6>
-        <section>
+        <section >
             <h2>Question ipsum?</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus justo. Lorem ipsum dolor sit amet, <span>consectetur adipiscing</span> elit. Vivamus justo.</p>
         </section>
@@ -71,6 +75,9 @@
             </ul>
         </section>
     </section>
+    <footer>
+        <h3>Copyright bt MK</h3>
+    </footer>
 
 </body>
 </html>
