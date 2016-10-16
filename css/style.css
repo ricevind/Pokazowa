@@ -108,7 +108,7 @@ nav ul li a:hover {
 
 #background-section{
     margin-top:1px;
-    background: url(/img/backImage.jpg) center center;
+    background: url(img/backImage.jpg) center center;
     height:720px;
     text-align: center;
 }
